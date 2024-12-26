@@ -1,0 +1,15 @@
+# This is a Databricks asset bundle definition for Practical-Machine-Learning-on-Databricks.
+# The file was generated automatically by the Databricks extension. 
+# It's based on the configuration located in `.databricks/project.json`.
+# If you don't want this file to be created automatically, remove the `.databricks/project.json`.
+# See https://docs.databricks.com/dev-tools/bundles/index.html for documentation.
+
+bundle:
+  name: Practical-Machine-Learning-on-Databricks
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://one-env-juan-lamadrid-sandbox.cloud.databricks.com

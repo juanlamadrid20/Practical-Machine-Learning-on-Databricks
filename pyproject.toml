@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "practical-machine-learning-on-databricks"
+version = "0.1.0"
+description = ""
+authors = ["juanlamadrid20 <enlightendevio@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyspark = "^3.5.4"
+pandas = "^2.2.3"
+pyarrow = "^18.1.0"
+mlflow-skinny = {extras = ["databricks"], version = "^2.19.0"}
+scikit-learn = "^1.6.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
